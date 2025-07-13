@@ -73,11 +73,10 @@ This episode introduces foundational C++ concepts and their significance in syst
 ```cpp
 float computeHoverThrust(float weightKg, float altitude) {
     return (9.81 * weightKg) + (0.03 * altitude);
-}
+} ```
 
----
 
-What it does: Calculates the thrust required for a drone to hover, factoring in weight and altitude.
+### What it does: Calculates the thrust required for a drone to hover, factoring in weight and altitude.
 Why it matters: Translates sensor data into precise motor commands, mimicking real-world drone stabilization.
 Key Insight: This isn’t just math—it’s a physics-driven reflex that keeps a drone aloft.
 
