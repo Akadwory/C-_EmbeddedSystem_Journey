@@ -1,0 +1,47 @@
+# C++ Build Files
+*.o
+*.obj
+*.so
+*.a
+*.out
+*.exe
+*.dll
+
+# CMake Build Folder
+/build/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# VSCode Config
+.vscode/
+
+# Python Environments (for Phase 6B)
+.env
+.venv
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs & Temporary Files
+*.log
+logs/
+*.tmp
+*.swp
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebooks Checkpoints
+.ipynb_checkpoints/
+
+# Backup Files
+*~
+*.bak
+
+# Compiled Binaries
+bin/
