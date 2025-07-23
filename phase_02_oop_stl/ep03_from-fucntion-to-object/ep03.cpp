@@ -30,7 +30,10 @@ int main(){
     gyroSensor.read(0.045);
     gyroSensor.calibrate();
     gyroSensor.display(); 
-    
+
+
+
+
 
     return 0; 
 }
