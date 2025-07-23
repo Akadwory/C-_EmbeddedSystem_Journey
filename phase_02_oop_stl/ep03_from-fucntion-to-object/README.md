@@ -23,17 +23,6 @@ We explore how C++ functions represent a machine’s behavior — and why modula
 > That’s how we move from _functions_ to _objects_.
 
 ---
-
-## Code Preview
-
-```cpp
-void adjustMotor(int thrust) {
-    if (thrust < 0) thrust = 0;
-    if (thrust > 100) thrust = 100;
-    // Simulate setting motor power
-    cout << "Motor thrust adjusted to: " << thrust << "%" << endl;
-}
-
 ## Watch the Full Video
 https://www.youtube.com/watch?v=oU_GoxJMu8c&t=2s&ab_channel=NeuroMech
 
@@ -46,6 +35,18 @@ We go beyond functions and introduce the class — giving our components memory,
 /Video2_FunctionsToObjects
 ├── main.cpp
 ├── README.md
+
+
+## Code Preview
+
+```cpp
+void adjustMotor(int thrust) {
+    if (thrust < 0) thrust = 0;
+    if (thrust > 100) thrust = 100;
+    // Simulate setting motor power
+    cout << "Motor thrust adjusted to: " << thrust << "%" << endl;
+}
+
 
 
 
