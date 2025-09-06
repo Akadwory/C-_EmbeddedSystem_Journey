@@ -11,7 +11,7 @@ class Sensor{
             cout << "[Sensor] ... Powering ON ... Running a self-test " << endl; 
             value = 0.0; 
         }
-
+        
         Sensor(string id){
             sensorID = id; 
             value = 0.0; 
@@ -31,5 +31,5 @@ class Sensor{
 int main(){
     Sensor tempsensor("TEMP_SENSOR");
     Sensor gyroSensor ("GYRO_SENSOR"); 
-    cout << "System Main program finished ..." << endl;  
+    cout << "System Main program finished ..." << endl;
 }

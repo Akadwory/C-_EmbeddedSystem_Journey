@@ -1,6 +1,7 @@
 #include <iostream> 
 using namespace std; 
 
+
 float computehoverThrust(float weightKg , float altitude){
     return (9.81 * weightKg) + (0.03 * altitude);
 }
